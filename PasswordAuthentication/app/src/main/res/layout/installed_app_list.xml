@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent" android:layout_height="50dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/app_icon"
+            android:paddingBottom="8dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="hello_world"/>
+        <TextView android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="#000808"
+            android:id="@+id/list_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:text="hello_world"
+            android:layout_toRightOf="@+id/app_icon"
+            android:layout_alignTop="@+id/app_icon"/>
+        <ImageView android:id="@+id/lock_icon"
+            android:paddingBottom="8dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="hello_world"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
