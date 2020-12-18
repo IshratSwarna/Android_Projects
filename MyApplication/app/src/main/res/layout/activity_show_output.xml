@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffdb4d"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is First Output!"
+        android:textColor="#500000"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:textColor="#540000"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        android:text="Back to Home Page"
+        android:textSize="20dp" />
+</LinearLayout>

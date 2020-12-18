@@ -1,0 +1,2 @@
+MyApplication is just a demo app for PasswordAuthentication application. PasswordAuthentication has to run when any other apps are starting..
+So, this MyApplication is used as the demo app on which PasswordAuthentication App will show it's screen.
